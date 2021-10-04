@@ -1,0 +1,29 @@
+.doctor-img{
+    text-align: center;
+}
+.doctor-img img{
+    width: 170px;
+    height: 170px;
+    border: 1px solid #3facf5d5;
+    border-radius: 50%;
+}
+.doctor-info h4{
+    color: #0c0c0ccb;
+}
+.doctor-info h6{
+    font-size: 18px;
+    color: #292828c2;
+}
+.doctor-info span{
+    font-weight: normal;
+}
+.select-btn{
+    background-color: #e2f3ff;
+    color: #0669aa;
+    padding:5px 30px;
+    margin: 20px 38px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid #e2f3ff;
+    border-radius: 3px;
+}

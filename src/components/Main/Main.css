@@ -1,0 +1,9 @@
+.main-container{
+    display: flex;
+    background-color: #f5f4f4;
+    padding: 30px 50px;
+}
+.doctors-container{
+    width: 80%;
+    padding-left: 20px;
+}
