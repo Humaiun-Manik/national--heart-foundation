@@ -38,7 +38,9 @@ const Main = () => {
                     }
                 </div>
             </div>
-            <Cart cart={cart}></Cart>
+            <Cart cart={cart}>
+
+            </Cart>
         </div>
     );
 };
