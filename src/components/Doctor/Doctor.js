@@ -16,7 +16,7 @@ const Doctor = (props) => {
                     <h6>E-mail: <span>{email}</span></h6>
                     <h6>Address: <span>{address}</span></h6>
                     <h6>Salary: <span>{salary}</span></h6>
-                    <button onClick={() => handleSelectDoctor()} className='select-btn'>Select To Cart</button>
+                    <button onClick={() => props.handleAddToCart(props.doctor)} className='select-btn'>Select To Cart</button>
                 </div>
             </div>
         </div>
