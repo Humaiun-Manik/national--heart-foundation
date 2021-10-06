@@ -15,10 +15,10 @@ const Cart = (props) => {
         <div className='select-doctor'>
             <div className="card">
                 <div className="card-body">
-                    <h5 className="card-title"><span className='added-dctr'>Doctors added: </span>{selectedDoctors.length}</h5>
-                    <h5 className="card-title"><span className='added-dctr'>Total Cost: </span>{total}</h5>
+                    <h4 className="card-title"><span className='added-dctr'>Doctors added: </span>{selectedDoctors.length}</h4>
+                    <h4 className="card-title"><span className='added-dctr'>Total Cost: </span>{total}</h4>
 
-                    <div>
+                    <div className="remove-doctor">
                         {
                             selectedDoctors.map(selectedDoctor => <SelectedDoctor
                                 key={selectedDoctor.id}

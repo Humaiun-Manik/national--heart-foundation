@@ -4,6 +4,8 @@
 }
 .close-btn{
     display: flex;
+    background-color: #e2f3ff;
+    color: #0669aa;
 }
 .close-btn h6{
     padding-top: 16px;
